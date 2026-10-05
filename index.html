@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simple Wu-Tang Name Generator</title>
+
+        <link rel="stylesheet" href="./css/modern-normalize.css">
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Simple Wut-Tang Name Generator</h1>
+        </header>
+
+        <main>
+            <section>
+                <p>Read the question. Pick your answer. Get a Wu-Tand name.</p>
+            </section>
+
+            <section>
+                <form action="submit" method="POST">
+                    <fieldset>
+                        <legend>What vibe do you want?</legend>
+                        <div>
+                            <input type="radio" name="answerOne" class="wutangOneSoundingAnswers" id="answerOneOne"
+                                value="0">
+                            <label for="answerOneOne">Mysterious</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="answerOne" class="wutangOneSoundingAnswers" id="answerOneTwo"
+                                value="1">
+                            <label for="answerOneTwo">Bold</label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Choose an element.</legend>
+                        <div>
+                            <input type="radio" name="answerTwo" class="wutangOneSoundingAnswers" id="answerTwoOne"
+                                value="0">
+                            <label for="answerTwoOne">Fire</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="answerTwo" class="wutangOneSoundingAnswers" id="answerTwoTwo"
+                                value="1">
+                            <label for="answerTwoTwo">Water</label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Choose an animal.</legend>
+                        <div>
+                            <input type="radio" name="answerThree" class="wutangOneSoundingAnswers" id="answerThreeOne"
+                                value="0">
+                            <label for="answerThreeOne">Wolf</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="answerThree" class="wutangOneSoundingAnswers" id="answerThreeTwo"
+                                value="1">
+                            <label for="answerThreeTwo">Eagle</label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>What kind of energy do you have??</legend>
+                        <div>
+                            <input type="radio" name="answerFour" class="wutangTwoSoundingAnswers" id="answerFourOne"
+                                value="0">
+                            <label for="answerFourOne">Calm</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="answerFour" class="wutangTwoSoundingAnswers" id="answerFourTwo"
+                                value="1">
+                            <label for="answerFourTwo">Wild</label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>What time of day fits you?</legend>
+                        <div>
+                            <input type="radio" name="answerFive" class="wutangTwoSoundingAnswers" id="answerFiveOne"
+                                value="0">
+                            <label for="answerFiveOne">Night</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="answerFive" class="wutangTwoSoundingAnswers" id="answerFiveTwo"
+                                value="1">
+                            <label for="answerFiveTwo">Day</label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>What style do you prefer?</legend>
+                        <div>
+                            <input type="radio" name="answerSix" class="wutangTwoSoundingAnswers" id="answerSixOne"
+                                value="0">
+                            <label for="answerSixOne">Modern</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="answerSix" class="wutangTwoSoundingAnswers" id="answerSixTwo"
+                                value="1">
+                            <label for="answerSixTwo">Ancient</label>
+                        </div>
+                    </fieldset>
+                </form>
+                <button>Get My Wu-Tang Sounding Name</button>
+            </section>
+
+            <section>
+                <div>
+                    <h2 class="wutangTitle"></h2>
+                    <h2 class="wutangSoundingName"></h2>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <small>Made by: Niles</small>
+        </footer>
+
+        <script type="text/javascript" src="./js/main.js"></script>
+    </body>
+
+</html>

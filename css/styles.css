@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    overflow: hidden;
+    background: orange;
+}
+
+header,
+footer {
+    flex-shrink: 0;
+    padding: 1rem;
+    background: greenyellow;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    width: 100%;
+    padding: 1.5rem;
+}
+
+section {
+    padding: 1rem;
+    background: white;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+main>section {
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 1.75rem;
+}
+
+h2 {
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+fieldset {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+legend {
+    padding: 0 0.5rem;
+    font-weight: bold;
+}
+
+fieldset div {
+    padding: 0.5rem;
+}
+
+label {
+    padding-left: 0.5rem;
+    cursor: pointer;
+}
+
+button {
+
+    padding: 1rem;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 6px;
+    background: blue;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: turquoise;
+}
+
+.wutangTitle,
+.wutangSoundingName {
+    text-align: center;
+}
+
+.wutangSoundingName {
+    font-size: 1.5rem;
+}
+
+footer {
+    font-size: 1rem;
+}

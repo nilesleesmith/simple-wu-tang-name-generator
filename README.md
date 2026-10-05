@@ -1,22 +1,60 @@
-# 🎤 Week08 Bootcamp2019a Project: Wu-Tang Name Generator
+# Name Generator
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
+A simple name generator that creates random names for use in projects, games, testing, and other creative work.
 
-### How to submit your code for review:
+## About
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+This project generates random names using predefined name data and simple JavaScript logic.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+The goal is to provide a quick and easy way to generate names without having to think of one manually.
+
+## What It Does
+
+- Generates random names
+- Provides a simple interface for generating new names
+- Uses JavaScript to handle the name generation
+- Keeps the project simple and easy to understand
+
+## Technologies
+
+This project was built with:
+
+- HTML
+- CSS
+- JavaScript
+
+## How It Works
+
+The generator selects names from the available name data and displays a randomly selected result.
+
+Each time a new name is generated, the application selects another name from the available options.
+
+## Usage
+
+Open the project in a web browser.
+
+Click the generate button to create a new random name.
+
+The generated name can then be used for whatever you need, including projects, characters, examples, testing, or just for fun.
+
+## Development Approach
+
+I prefer simple code over unnecessary complexity.
+
+This project is intentionally small and straightforward so that the HTML, CSS, and JavaScript are easy to read, understand, and modify.
+
+The goal is to build something useful while keeping the implementation simple.
+
+## Future Improvements
+
+Possible improvements include:
+
+- Adding different name categories
+- Adding more names
+- Adding options for first and last names
+- Adding the ability to copy generated names
+- Improving the user interface
+
+## License
+
+This project is open source and available for personal and educational use.

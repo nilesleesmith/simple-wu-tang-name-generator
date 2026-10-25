@@ -1,60 +1,85 @@
-# Name Generator
+# Simple Wu-Tang Name Generator
 
-A simple name generator that creates random names for use in projects, games, testing, and other creative work.
+Answer six multiple-choice questions to generate a Wu-Tang-inspired name.
 
-## About
+## Overview
 
-This project generates random names using predefined name data and simple JavaScript logic.
+Simple Wu-Tang Name Generator asks six questions about preferences such as vibe, element, animal, energy, time of day, and style.
 
-The goal is to provide a quick and easy way to generate names without having to think of one manually.
+The browser sends the selected answers to a Node.js server. The server uses those answers to select and combine two name parts, then returns the generated name to the page.
 
-## What It Does
+## Features
 
-- Generates random names
-- Provides a simple interface for generating new names
-- Uses JavaScript to handle the name generation
-- Keeps the project simple and easy to understand
+- Six-question multiple-choice form
+- Client-side answer collection and validation
+- Node.js HTTP server
+- API endpoint for generating the result
+- Two eight-name lists used to create the final name
+- Up to 64 possible name combinations
+- Result displayed directly in the browser
 
 ## Technologies
 
-This project was built with:
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" title="HTML">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="CSS">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://nodejs.org/" title="Node.js">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="40" height="40">
+  </a>
+</p>
 
-- HTML
-- CSS
-- JavaScript
+## How to Run
 
-## How It Works
+1. Clone the repository:
 
-The generator selects names from the available name data and displays a randomly selected result.
+```bash
+git clone https://github.com/nilesleesmith/simple-wu-tang-name-generator.git
+```
 
-Each time a new name is generated, the application selects another name from the available options.
+2. Open the project folder:
 
-## Usage
+```bash
+cd simple-wu-tang-name-generator
+```
 
-Open the project in a web browser.
+3. Start the Node.js server:
 
-Click the generate button to create a new random name.
+```bash
+node server.js
+```
 
-The generated name can then be used for whatever you need, including projects, characters, examples, testing, or just for fun.
+4. Open the application in a browser:
 
-## Development Approach
+```text
+http://localhost:8000
+```
 
-I prefer simple code over unnecessary complexity.
+No additional packages or installation steps are required.
 
-This project is intentionally small and straightforward so that the HTML, CSS, and JavaScript are easy to read, understand, and modify.
+## Live Site
 
-The goal is to build something useful while keeping the implementation simple.
+Coming soon.
 
-## Future Improvements
+## Screenshots
 
-Possible improvements include:
+### Desktop
 
-- Adding different name categories
-- Adding more names
-- Adding options for first and last names
-- Adding the ability to copy generated names
-- Improving the user interface
+![Simple Wu-Tang Name Generator desktop view](./screenshots/simple-wu-tang-name-generator-desktop.png)
 
-## License
+### Tablet
 
-This project is open source and available for personal and educational use.
+![Simple Wu-Tang Name Generator tablet view](./screenshots/simple-wu-tang-name-generator-tablet.png)
+
+### Mobile
+
+![Simple Wu-Tang Name Generator mobile view](./screenshots/simple-wu-tang-name-generator-mobile.png)

@@ -68,18 +68,8 @@ No additional packages or installation steps are required.
 
 ## Live Site
 
-Coming soon.
+https://simple-wu-tang-name-generator.onrender.com
 
 ## Screenshots
 
-### Desktop
-
 ![Simple Wu-Tang Name Generator desktop view](./screenshots/simple-wu-tang-name-generator-desktop.png)
-
-### Tablet
-
-![Simple Wu-Tang Name Generator tablet view](./screenshots/simple-wu-tang-name-generator-tablet.png)
-
-### Mobile
-
-![Simple Wu-Tang Name Generator mobile view](./screenshots/simple-wu-tang-name-generator-mobile.png)
